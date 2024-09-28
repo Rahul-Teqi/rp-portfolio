@@ -1,0 +1,66 @@
+footer{
+    position: relative;
+    min-height: 350px;
+    background-image: url('/images/footer_background.png');
+    background-size: cover;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UnderLineCon{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.UnderLine{
+    width: 100%;
+    margin: 0px 50px 20px 50px;
+    border-bottom: 5px solid black;
+}
+
+.mainCon{
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    z-index: 2;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.LogoNameCon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    gap: 0px;
+}
+
+
+.KeepExploringCon a{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.ContactIconConFooter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70px;
+    gap: 10px;
+}
+
+.ContactIconConFooter a{
+    transition: all 0.2s ease-in-out;
+}
+
+.ContactIconConFooter a:hover{
+    scale: 1.1;
+}

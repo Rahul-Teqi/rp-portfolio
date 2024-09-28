@@ -1,0 +1,307 @@
+.home1 {
+  height: 80vh;
+  color: white;
+
+  .nameCon {
+    width: 500px;
+  }
+
+  .nameCon p {
+    color: #a4a4a4;
+  }
+  .nameCon h1 {
+    font-weight: 400;
+  }
+  .nameCon button {
+    background-image: linear-gradient(to right, #6617cb, #f67ecb);
+    color: white;
+    border: 0;
+  }
+
+  .image img {
+    max-height: 500px;
+  }
+}
+
+.home2 {
+  color: white;
+
+  .TextCon p {
+    font-family: Ranga;
+    font-size: 20px;
+  }
+
+  .TextCon h2 {
+    letter-spacing: 5px;
+  }
+
+  .BlockCon {
+    width: 350px;
+  }
+
+  .BlockCon p {
+    color: rgb(183, 183, 183);
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .Block {
+    position: relative;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 150px;
+  }
+
+  .Block h3 {
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    background-color: #11071f;
+    font-family: Aldrich;
+    margin-top: -20px;
+  }
+
+  .Block div {
+    position: absolute;
+    z-index: 0;
+  }
+
+  .Block div h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140px;
+    line-height: 120px;
+    background: linear-gradient(45deg, #ffa2de, #913cff);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+  }
+}
+
+.home3 {
+  color: white;
+  background-color: #1a0b2e;
+  margin-top: 20px;
+  h2 {
+    font-weight: 500;
+  }
+
+  .Block {
+    width: 320px;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .Block:hover {
+    scale: 1.05;
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 5px black;
+  }
+
+  .Block h4 {
+    font-family: Aldrich;
+  }
+  .Block p {
+    font-size: 14px;
+    color: rgb(184, 184, 184);
+  }
+  .ImageCon img {
+    max-height: 350px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .BlockCon {
+    width: 50%;
+  }
+  @media (max-width: 570px) {
+    .BlockCon {
+      width: 100%;
+    }
+  }
+}
+
+.home4 {
+  color: white;
+  margin-top: 20px;
+
+  p {
+    color: rgb(137, 137, 137);
+  }
+
+  .CallBtnCon {
+    position: relative;
+    height: 80px;
+    margin-bottom: 50px;
+  }
+
+  .button-52 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid rgb(207, 207, 207);
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 20px;
+  }
+
+  .button-52:after {
+    content: "";
+    background: linear-gradient(112deg, #6617cb -39.49%, #f67ecb 117.34%);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    z-index: -1;
+    transition: 0.2s;
+  }
+
+  .button-52:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+/* Not found */
+.NotFound{
+  z-index: -1;
+  .MainCon{
+    height: 85vh;
+    width: 100%;
+}
+@import url(https://fonts.googleapis.com/css?family=Gilda+Display);
+
+.static {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: -100px;
+  opacity: 0.05;
+  z-index: 9;
+  user-select: none;
+  user-drag: none;
+  z-index: -1;
+
+}
+
+.error {
+  text-align: center;
+  font-family: 'Gilda Display', serif;
+  font-size: 95px;
+  font-style: italic;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -60px;
+  right: 0;
+  animation: noise 2s linear infinite;
+  overflow: default;
+}
+
+.error:after {
+  content: '404';
+  font-family: 'Gilda Display', serif;
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  color: rgb(255, 0, 0);
+  animation: noise-1 .2s linear infinite;
+}
+}
+
+.info {
+  text-align: center;
+  font-family: 'Gilda Display', serif;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  margin: auto;
+  color: #858585;
+  position: absolute;
+  top: 140px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation: noise-3 1s linear infinite;
+}
+
+.error:before {
+  content: '404';
+  font-family: 'Gilda Display', serif;
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  color: rgb(0, 255, 242);
+  animation: noise-2 .2s linear infinite;
+}
+
+@keyframes noise-1 {
+  0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;}
+  10% {opacity: .1;}
+  50% {opacity: .5; left: -6px;}
+  80% {opacity: .3;}
+  100% {opacity: .6; left: 2px;}
+}
+
+@keyframes noise-2 {
+  0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;}
+  10% {opacity: .1;}
+  50% {opacity: .5; left: 6px;}
+  80% {opacity: .3;}
+  100% {opacity: .6; left: -2px;}
+}
+
+@keyframes noise {
+  0%, 3%, 5%, 42%, 44%, 100% {opacity: 1; transform: scaleY(1);}  
+  4.3% {opacity: 1; transform: scaleY(1.7);}
+  43% {opacity: 1; transform: scaleX(1.5);}
+}
+
+@keyframes noise-3 {
+  0%,3%,5%,42%,44%,100% {opacity: 1; transform: scaleY(1);}
+  4.3% {opacity: 1; transform: scaleY(4);}
+  43% {opacity: 1; transform: scaleX(10) rotate(60deg);}
+}

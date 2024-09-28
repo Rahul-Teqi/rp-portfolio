@@ -1,0 +1,158 @@
+
+.MainDiv{
+  margin-bottom: 150px;
+}
+
+.FirstBLock{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  column-gap: 100px;
+  align-items: center;
+}
+
+.FirstBLockDetails h1{
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+}
+
+.FirstBLockDetails p{
+  width: 350px;
+  margin-top: 10px;
+  text-align: justify;
+  color: gray;
+}
+
+.FirstBLockDetails button{
+  margin-top: 20px;
+  width: 150px;
+  height: 34px;
+  font-size: 16px;
+  color: white;
+  background-color: #FF6CD3;
+  border: 0;
+  border-radius: 50px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.Block_2{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+}
+
+.ProjectCon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
+  border-radius: 26px;
+  background: linear-gradient(102deg, #8E52DC 0%, #FF6CD3 100%);
+}
+.ProjectCon h2{
+  font-size: 20px;
+}
+.ImageConProject{
+  width: 220px;
+  height: 130px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.ImageConProject img{ 
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.MainDiv a{
+  color: white !important;
+  text-decoration: none  !important;
+}
+
+
+.book {
+  position: relative;
+  border-radius: 10px;
+  width: 260px;
+  height: 390px;
+  background: linear-gradient(102deg, #ff1bbb 0%, #7929e2 100%);
+  
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  background-color: lightgray;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+}
+
+.book:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-80deg);
+  -ms-transform: rotatey(-80deg);
+  transform: rotatey(-80deg);
+}
+
+.Details{
+  text-align: justify;
+  margin-left: 10px;
+  line-height: 20px;
+  padding: 15px 15px 15px 25px ;
+}
+
+.LinkBtn{
+  width: 100px;
+  margin-top: 20px;
+  border: 10px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: #FF6CD3;
+  cursor: pointer;
+  color: white;
+}

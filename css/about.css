@@ -1,0 +1,92 @@
+.about1{
+    color: white;
+    height: 85vh;
+
+    h3{
+        color: rgb(196, 196, 196);
+        letter-spacing: 3px;
+        font-weight: 300;
+    }
+
+
+    h2{
+        overflow: hidden;
+        position: relative;
+        width: 320px;
+        text-align: right;
+        span{
+            font-weight: 700;
+            background: linear-gradient(180deg, #6617CB,#6517cb,#6517cb6b, #00000000);
+            -webkit-background-clip: text; /* For Safari */
+            background-clip: text;
+            color: transparent;
+        }
+    }
+
+    img{
+        cursor: wait;
+        max-width: 300px;
+        transition: 0.3s all ease-in-out;
+    } 
+    
+    img:hover{
+        scale: 1.2;
+        filter: drop-shadow(5px 5px 10px #6617CB);
+    }
+}
+
+#DisplayName{
+    position: absolute;
+    left: 0;
+    animation: slideDown 3s linear infinite; /* Animation settings */
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-40px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(40px);
+    }
+}
+
+.waviy{
+    position: relative;
+}
+
+.waviy span{
+    position: relative;
+    display: inline-block;
+    animation: waviy 2s infinite;
+    animation-delay: calc(.1s * var(--i));
+    letter-spacing: 3px;
+}
+
+@keyframes waviy{
+    0%,
+    40%,
+    100%{
+        transform: translateY(0);
+    }
+
+    20%{
+        transform: translateY(-10px);
+    }
+}
+
+.about2{
+    color: white;
+
+    p{
+        color: rgb(177, 177, 177);
+    }
+    img{
+        width: 600px;
+    }
+}
